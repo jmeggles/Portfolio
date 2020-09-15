@@ -2,7 +2,8 @@
 
 .projectCard {
     margin-bottom: 5em;
-
+    font-family: "Cairo", sans-serif;
+    text-align: center;
 }
 
 Button {

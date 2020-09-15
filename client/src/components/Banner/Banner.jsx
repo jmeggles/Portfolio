@@ -11,7 +11,7 @@ const Banner = () => {
       <Container className="bannerContainer overlay">
         <div>
         <img className="bannerImage" src={BannerJumbo} alt="laptop on a table" />
-        <h1>Jody Eggleston</h1>
+        <h1 className="bannerNameTitle">Jody Eggleston</h1>
         <h4>Full Stack Web Developer</h4>
         </div>
       </Container>

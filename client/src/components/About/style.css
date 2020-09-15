@@ -1,8 +1,10 @@
 .aboutContainer {
     text-align: center !important;
+    font-family: "Cairo", sans-serif;
     margin-bottom: 3em;
 }
 
 .aboutText {
     margin-top: 1.5em;
+ 
 }

@@ -7,13 +7,13 @@ class Navigation extends Component {
     return (
       <Fragment>
         <Navbar bg="light" expand="sm">
-          <Navbar.Brand id="homePageName" href="#home">
+          <Navbar.Brand id="navigationName" href="#home">
             Jody Eggleston
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             {/* ml-auto moves nav links to the right */}
-            <Nav className="ml-auto">
+            <Nav className="navigationLinks ml-auto">
               <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#about">ABOUT</Nav.Link>
               <Nav.Link href="#projects">PROJECTS</Nav.Link>

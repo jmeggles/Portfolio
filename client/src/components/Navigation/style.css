@@ -1,4 +1,10 @@
-#homePageName {
+#navigationName {
     /* navbar name uppder left */
     color: #5bc0de;
+    font-family: "Euphoria Script", cursive;
+    font-size: 3em;
+}
+
+.navigationLinks {
+    font-family: "Cairo", sans-serif;
 }
