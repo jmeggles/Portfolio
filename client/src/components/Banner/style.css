@@ -13,20 +13,23 @@
   position: absolute;
   min-height: 656px;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, .7);
 }
 
 .bannerName {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 4.5em;
   font-family: "Cairo", sans-serif;
   text-align: center;
+  margin-bottom: .3em;
 }
 
 .bannerTitle {
   color: white;
   padding: 20px 0px;
-  font-weight: 600;
+  font-weight: 300;
+  font-size: 2em;
   font-family: "Cairo", sans-serif;
   text-align: center;
 }

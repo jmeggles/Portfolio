@@ -6,12 +6,42 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
+          <Container className="contactContainer col-lg-5">
+        <div>
+          <h5>
+           Central Florida
+          </h5>
+          <h5>
+            <a href={`mailto:jmeggles@gmail.com`}>
+              jmeggles@gmail.com
+            </a>
+          </h5>
+          <h5>
+            <a
+              
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/jody-eggleston"
+            >
+              Linkedin
+            </a>
+          </h5>
+          <h5>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/jmeggles"
+            >
+              GitHub
+            </a>
+          </h5>
+        </div>
 
         {/* ----------------------------------------------------------- 
         
         TEMPORARY: copied in from first portfolio (portfolio-responsive) */}
 
-        <Container className="contactContainer col-lg-5">
+      
           <div className="row">
             <div className="col-md-12">
               <label>
@@ -38,11 +68,9 @@ class Contact extends Component {
                 className="form-control"
                 rows="10"
               ></textarea>
-              <div >
-                <div >
-                  <Button>
-                    Submit
-                  </Button>
+              <div>
+                <div>
+                  <Button>Submit</Button>
                 </div>
               </div>
             </div>

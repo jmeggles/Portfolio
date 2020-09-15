@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { Card, Button, Col, Container, Row } from "react-bootstrap"; //import all contexts
-import Placeholder from "../../assets/images/place1-1200.png";
+import MERN from "../../assets/images/mern.jpg";
+import Offline from "../../assets/images/offline.png"
+import Info from "../../assets/images/info-icon.png"
 import "./style.css";
 
 //react-bootstrap card starter
@@ -12,27 +14,25 @@ class Projects extends Component {
           <Row>
             <Col>
               <Card className="projectCard" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Placeholder} />
+                <Card.Img variant="top" src={MERN} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Google Books</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Search, save, view, and buy your favorite books on Google Play store.
                   </Card.Text>
-                  <Button >Go somewhere</Button>
+                  <a target="_blank" rel="noopener noreferrer" href="https://googlebooks-mern.herokuapp.com/"><Button variant="primary">Live View on Heroku</Button></a>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card className="projectCard" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Placeholder} />
+                <Card.Img variant="top" src={MERN} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>To-Do App</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Simple to-do application to keep daily activities in order.
                   </Card.Text>
-                  <Button >Go somewhere</Button>
+                  <a target="_blank" rel="noopener noreferrer" href="https://todo-app-with-mern.herokuapp.com/  "><Button variant="primary">Live View on Heroku</Button></a>
                 </Card.Body>
               </Card>
             </Col>
@@ -40,27 +40,25 @@ class Projects extends Component {
           <Row>
             <Col>
               <Card className="projectCard" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Placeholder} />
+                <Card.Img variant="top" src={Offline} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Budget Tracker</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Track your budget with offline capabilities. Great when traveling!
                   </Card.Text>
-                  <Button >Go somewhere</Button>
+                  <a target="_blank" rel="noopener noreferrer" href="https://budget-tracker-for-you.herokuapp.com/ "><Button variant="primary" >Live View on Heroku</Button></a>
                 </Card.Body>
               </Card>
             </Col>
             <Col>
               <Card className="projectCard" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Placeholder} />
+                <Card.Img variant="top" src={Info} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>House Our Heroes</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Informational site about healthcare workers and first responders being denied housing due to their jobs and the Covid pandemic.
                   </Card.Text>
-                  <Button >Go somewhere</Button>
+                  <a target="_blank" rel="noopener noreferrer" href="https://house-our-heroes.herokuapp.com/ "><Button variant="primary" >Live View on Heroku</Button></a>
                 </Card.Body>
               </Card>
             </Col>

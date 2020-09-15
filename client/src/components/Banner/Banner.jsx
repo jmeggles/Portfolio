@@ -13,7 +13,7 @@ const Banner = () => {
           <Container className="bannerContainer">
         
               
-              <h1 className="bannerName">Jody Eggleston</h1>
+              <h1 className="bannerName">JODY EGGLESTON</h1>
               <h4 className="bannerTitle"> Full Stack Web Developer</h4>
     
           </Container>
