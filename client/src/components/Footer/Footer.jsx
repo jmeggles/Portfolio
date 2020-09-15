@@ -1,12 +1,12 @@
-import React, { Component, Fragment } from "react";
+import React, { Fragment } from "react";
 
-class Footer extends Component {
-  render() {
+//stateless since this info will not likely change
+const Footer = () => {
     return (
       <Fragment>
-        <p>Footer Component</p>
+        <p>Copyright ©2020 | Jody Eggleston</p>
       </Fragment>
     );
   }
-}
+
 export default Footer;
