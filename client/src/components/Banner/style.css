@@ -1,10 +1,6 @@
-.bannerContainer {
-  text-align: center;
-  margin-bottom: 3em;
-}
-
+/* this image needs to be brought it this way (through css) for it to be overlaid with opacity */
 .bannerImage {
-  /* position: fixed; */
+  background-image: url(../../assets/images/banner-laptop.jpg);
   min-height: 650px;
   background-attachment: fixed;
   background-position: center;
@@ -12,14 +8,29 @@
   background-size: cover;
 }
 
-/* need name and title to sit over image */
-.bannerNameTitle {
-  font-family: "Cairo", sans-serif;
-}
-
-/* .overlay {
+/* name and title sits on the image with a dark opacity overlay */
+.overlay {
   position: absolute;
   min-height: 656px;
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
-} */
+}
+
+.bannerName {
+  color: white;
+  font-weight: 700;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+}
+
+.bannerTitle {
+  color: white;
+  padding: 20px 0px;
+  font-weight: 600;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+}
+
+.bannerContainer {
+  margin-top: 250px; 
+}
