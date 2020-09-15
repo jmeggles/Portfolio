@@ -12,7 +12,8 @@ class Navigation extends Component {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            {/* ml-auto moves nav links to the right */}
+            <Nav className="ml-auto">
               <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#about">ABOUT</Nav.Link>
               <Nav.Link href="#projects">PROJECTS</Nav.Link>

@@ -12,7 +12,7 @@ const About = () => {
         <Row>
           <Col>
             <img src={Mypic} alt="Profile pic of Jody Eggleston" />
-            <p>
+            <p className="aboutText">
               Full stack web developer with extensive knowledge in logistics
               supervision (18 years), experience in nutrition, health & fitness,
               and criminal justice. I love learning both frontend and backend
