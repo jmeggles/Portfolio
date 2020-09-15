@@ -1,13 +1,19 @@
 import React, { Component, Fragment } from "react";
+import { Container, Button } from "react-bootstrap";
+import "./style.css";
 
 class Contact extends Component {
   render() {
     return (
       <Fragment>
-        {/* copied in from first portfolio (portfolio-responsive) */}
-        <div className="container">
+
+        {/* ----------------------------------------------------------- 
+        
+        TEMPORARY: copied in from first portfolio (portfolio-responsive) */}
+
+        <Container className="contactContainer col-lg-5">
           <div className="row">
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <label>
                 <b>Name</b>
               </label>
@@ -32,19 +38,16 @@ class Contact extends Component {
                 className="form-control"
                 rows="10"
               ></textarea>
-              <div className="container">
-                <div className="row">
-                  <button
-                    // style="margin-top: 10px;"
-                    className="btn btn-primary"
-                  >
+              <div >
+                <div >
+                  <Button>
                     Submit
-                  </button>
+                  </Button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </Fragment>
     );
   }

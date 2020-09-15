@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Mypic from "../../assets/images/profile-pic.jpg";
+import "./style.css";
 
 // stateful since info will be updated often
 const About = () => {
   return (
     <Fragment>
-      <Container>
+      <Container className="aboutContainer col-lg-4">
         <h1>ABOUT ME</h1>
         <Row>
           <Col>

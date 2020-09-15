@@ -1,0 +1,11 @@
+/* have to override bootstrap with !important */
+
+.projectCard {
+    margin-bottom: 5em;
+
+}
+
+Button {
+    background-color: #5bc0de !important;
+    border-color: #5bc0de !important;
+}
