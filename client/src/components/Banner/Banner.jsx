@@ -5,10 +5,10 @@ import { Container } from "react-bootstrap";
 const Banner = () => {
   return (
     <Fragment>
-          <Container>
-            <h1>Jody Eggleston</h1>
-            <h4>Full Stack Web Developer</h4>
-          </Container>
+      <Container>
+        <h1>Jody Eggleston</h1>
+        <h4>Full Stack Web Developer</h4>
+      </Container>
     </Fragment>
   );
 };

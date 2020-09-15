@@ -6,6 +6,7 @@ import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 
+//this isthe order each component will show on the home/main page.
 class Home extends Component {
   render() {
     return (

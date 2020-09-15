@@ -35,8 +35,8 @@ class Projects extends Component {
                 </Card.Body>
               </Card>
             </Col>
-            </Row>
-            <Row>
+          </Row>
+          <Row>
             <Col>
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src={Placeholder} />
