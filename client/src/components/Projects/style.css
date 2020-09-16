@@ -32,8 +32,8 @@
 } */
 
 .projectCardImage {
-  width: 600px;
-  height: 200px;
+  width: 100% auto;
+  height: 100% auto;
 }
 
 Button {
