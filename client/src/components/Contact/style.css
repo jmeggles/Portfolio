@@ -5,10 +5,13 @@
     font-family: "Cairo", sans-serif;
 }
 
-.contactLinks {
 
+.contact-form {
+  justify-content: center;
+  border-radius: 2px !important;
+  background: #f8f9fa;
 }
 
-.contactForm {
-    text-align: left;
+.contactButton {
+  
 }
