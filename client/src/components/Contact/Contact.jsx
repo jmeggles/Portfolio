@@ -7,6 +7,7 @@ class Contact extends Component {
     return (
       <Fragment>
           <Container className="contactContainer col-lg-5">
+          <h1 className="sectionTitle">CONTACTS</h1>
         <div>
           <h5>
            Central Florida

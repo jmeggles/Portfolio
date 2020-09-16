@@ -1,10 +1,33 @@
+.sectionTitle::after {
+    /* line under the title for all sections in this app */
+  content: ""; /* plain line */
+  display: block;
+  width: 30rem; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
+  margin: 1rem auto; 
+  background: #81cccc;
+  height: 1px; /* using pixels to keep the same size throughout page */
+  margin-bottom: 4rem;
+}
+
 .aboutContainer {
-    text-align: center !important;
-    font-family: "Cairo", sans-serif;
-    margin-bottom: 3em;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  margin-top: 3em;  /*EM is a unit of typography, equal to the currently specified point-size */
+  margin-bottom: 3em;
 }
 
 .aboutText {
-    margin-top: 1.5em;
- 
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.aboutImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem; 
+  border-radius: 50%;
 }

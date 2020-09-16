@@ -1,12 +1,42 @@
 /* have to override bootstrap with !important */
 
+.projectContainer {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: block;
+  justify-content: center;
+}
+
 .projectCard {
-    margin-bottom: 5em;
-    font-family: "Cairo", sans-serif;
-    text-align: center;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  background-color: #616060 !important;
+  color: #ffffff;
+  width: 350px;
+  height: 100% auto;
+  margin-left: 15%;
+  margin-right: 10px;
+  margin-bottom: 2em;
+
+}
+
+
+/* breaks at 844px and overlaps, need to align/stack/float vertically */
+/* .projectCardFloat {
+  float: left;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+} */
+
+.projectCardImage {
+  width: 600px;
+  height: 200px;
 }
 
 Button {
-    background-color: #5bc0de !important;
-    border-color: #5bc0de !important;
+  background-color: #81cccc !important;
+  border-color: #81cccc !important;
 }

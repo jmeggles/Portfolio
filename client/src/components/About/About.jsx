@@ -7,19 +7,30 @@ import "./style.css";
 const About = () => {
   return (
     <Fragment>
-      <Container className="aboutContainer col-lg-4">
-        <h1>ABOUT ME</h1>
+      <Container className="aboutContainer">
+        <h1 className="sectionTitle">ABOUT ME</h1>
         <Row>
           <Col>
-            <img src={Mypic} alt="Profile pic of Jody Eggleston" />
-            <p className="aboutText">
-              Full stack web developer with extensive knowledge in logistics
-              supervision (18 years), experience in nutrition, health & fitness,
-              and criminal justice. I love learning both frontend and backend
-              and have a new passion for coding!
-              <br />
-              Contact me. Lets start a project!
-            </p>
+            <img
+              className="aboutImage"
+              src={Mypic}
+              alt="Profile pic of Jody Eggleston"
+            />
+            <div>
+              <p className="aboutText col-6">
+                Full stack web developer with extensive experience in logistics
+                supervision (18 years), and vast knowledge in nutrition, health
+                & fitness, and criminal justice. I'm highly motivated and
+                energetic, work well under stressful situations and in a
+                fast-paced setting. Maintains excellent research, time
+                management and problem assessment plus resolution skills. I have
+                a new passion for coding and love learning both frontend and
+                backend of web development.
+              </p>
+              <p className="aboutText col-6">
+                Contact me. Lets start a project!
+              </p>
+            </div>
           </Col>
         </Row>
       </Container>
