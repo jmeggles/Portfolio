@@ -22,15 +22,6 @@
 
 }
 
-
-/* breaks at 844px and overlaps, need to align/stack/float vertically */
-/* .projectCardFloat {
-  float: left;
-  width: 150px;
-  height: 75px;
-  margin: 10px;
-} */
-
 .projectCardImage {
   width: 100% auto;
   height: 100% auto;

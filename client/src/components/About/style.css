@@ -2,7 +2,7 @@
     /* line under the title for all sections in this app */
   content: ""; /* plain line */
   display: block;
-  width: 30rem; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
+  width: 50rem; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
   margin: 1rem auto; 
   background: #81cccc;
   height: 1px; /* using pixels to keep the same size throughout page */

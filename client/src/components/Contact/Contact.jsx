@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import axios from "axios";
 import "./style.css";
 
@@ -10,7 +10,7 @@ class Contact extends Component {
     message: "",
     sent: false,
     buttonText: "Send Message",
-    err: ""
+    err: "",
   };
   formSubmit = async (e) => {
     e.preventDefault();
@@ -85,60 +85,41 @@ class Contact extends Component {
               </div>
             </Col>
             {/* ------------------------- copied in from another project...needs to be formatted-------------------------------------------- */}
-            <Col lg={6} sm={12} className="contactFormCol">
+            <Col lg={6} sm={12}>
               <h4>Send me a message!</h4>
-              <form
-                className="contact-form"
-                onSubmit={(e) => this.formSubmit(e)}
-              >
-                <label className="message-name" htmlFor="message-name">
-                  Your Name
-                </label>
-                <br />
-                <input
-                  onChange={(e) => this.setState({ name: e.target.value })}
-                  name="name"
-                  className="message-name"
-                  type="text"
-                  placeholder="Your Name"
-                  value={this.state.name}
-                />
-                <br />
-                <label className="message-email" htmlFor="message-email">
-                  Your Email
-                </label>
-                <br />
-                <input
-                  onChange={(e) => this.setState({ email: e.target.value })}
-                  name="email"
-                  className="message-email"
-                  type="email"
-                  placeholder="your@email.com"
-                  required
-                  value={this.state.email}
-                />
-
-                <br />
-                <label className="message" htmlFor="message-input">
-                  Your Message
-                </label>
-                <br />
-                <textarea
-                  onChange={(e) => this.setState({ message: e.target.value })}
-                  name="message"
-                  className="message-input"
-                  type="text"
-                  placeholder="Please write your message here"
-                  value={this.state.message}
-                  required
-                />
-                <div className="contactButton">
-                  <Button type="submit">
-                    {this.state.ButtonText}
-                    Submit
-                  </Button>
-                </div>
-              </form>
+              <Form onSubmit={this.onSubmit}>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Label>Name</Form.Label>
+                  <Form.Control
+                    name="name"
+                    placeholder="Enter Name"
+                    value={this.state.name}
+                    onChange={this.onChange}
+                  />
+                </Form.Group>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control
+                    name="email"
+                    placeholder="Enter email"
+                    value={this.state.email}
+                    onChange={this.onChange}
+                  />
+                  <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Message</Form.Label>
+                    <Form.Control
+                      as="textarea"
+                      name="msg"
+                      rows="3"
+                      value={this.state.msg}
+                      onChange={this.onChange}
+                    />
+                  </Form.Group>
+                </Form.Group>
+                <Button type="submit" variant="primary">
+                  Submit
+                </Button>
+              </Form>
             </Col>
           </Row>
         </Container>
