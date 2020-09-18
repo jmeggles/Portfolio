@@ -6,10 +6,11 @@ import "./style.css";
 class Contact extends Component {
   state = {
     name: "",
-    message: "",
     email: "",
+    message: "",
     sent: false,
     buttonText: "Send Message",
+    err: ""
   };
   formSubmit = async (e) => {
     e.preventDefault();
@@ -25,7 +26,7 @@ class Contact extends Component {
     };
 
     axios
-      .post("API_URI", data)
+      .post("API_URL", data)
       .then((res) => {
         this.setState({ sent: true }, this.resetForm());
       })
