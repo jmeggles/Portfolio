@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 class Home extends Component {
   render() {
     return (
+      // pull in each component
       <Fragment>
         <Navigation />
         <Banner />

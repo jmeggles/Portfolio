@@ -31,3 +31,23 @@
   width: 20rem; 
   border-radius: 50%;
 }
+
+.fa-icon {
+  color: #413d3d;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.aboutBtn a {
+  color: #413d3d;
+  margin: 0 15px;
+  background: radial-gradient(#befaf0, #5bc0de, #4c4853);
+  padding: 10px;
+  border-radius: 0.25rem;
+  margin-top: 4px;
+}
+
+.aboutBtn a:hover {
+  color: white;
+  background: radial-gradient(#4c4853, #5bc0de, #befaf0);
+}

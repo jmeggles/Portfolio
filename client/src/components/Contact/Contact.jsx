@@ -72,6 +72,15 @@ class Contact extends Component {
                     GitHub
                   </a>
                 </h5>
+                <h5>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://docs.google.com/document/d/1fVtFGpuRR1aFmVOI-IFFB2vVIiAVNRa9tTKOaSPOG4o/edit?usp=sharing"
+                  >
+                    Rèsumè
+                  </a>
+                </h5>
               </div>
             </Col>
             {/* ------------------------- copied in from another project...needs to be formatted-------------------------------------------- */}
@@ -81,27 +90,27 @@ class Contact extends Component {
                 className="contact-form"
                 onSubmit={(e) => this.formSubmit(e)}
               >
-                <label class="message-name" htmlFor="message-name">
+                <label className="message-name" htmlFor="message-name">
                   Your Name
                 </label>
                 <br />
                 <input
                   onChange={(e) => this.setState({ name: e.target.value })}
                   name="name"
-                  class="message-name"
+                  className="message-name"
                   type="text"
                   placeholder="Your Name"
                   value={this.state.name}
                 />
                 <br />
-                <label class="message-email" htmlFor="message-email">
+                <label className="message-email" htmlFor="message-email">
                   Your Email
                 </label>
                 <br />
                 <input
                   onChange={(e) => this.setState({ email: e.target.value })}
                   name="email"
-                  class="message-email"
+                  className="message-email"
                   type="email"
                   placeholder="your@email.com"
                   required
@@ -109,14 +118,14 @@ class Contact extends Component {
                 />
 
                 <br />
-                <label class="message" htmlFor="message-input">
+                <label className="message" htmlFor="message-input">
                   Your Message
                 </label>
                 <br />
                 <textarea
                   onChange={(e) => this.setState({ message: e.target.value })}
                   name="message"
-                  class="message-input"
+                  className="message-input"
                   type="text"
                   placeholder="Please write your message here"
                   value={this.state.message}
