@@ -10,10 +10,6 @@
     "predeploy": "npm build",
     "deploy": "gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmeggles/Portfolio.git"
-  },
   "author": "Jody Eggleston",
   "license": "ISC",
 
