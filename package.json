@@ -4,7 +4,7 @@
   "description": "## Overview Personal portfolio using React.  (Will be a MERN application when backend is complete). I have found an incredible passion for coding an would like to showcase my work with a portfolio.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
