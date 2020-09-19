@@ -12,34 +12,40 @@ class Contact extends Component {
     buttonText: "Send Message",
     err: "",
   };
-  formSubmit = async (e) => {
-    e.preventDefault();
-
+  onChange = event => {
     this.setState({
-      buttonText: "...sending",
-    });
+        [event.target.name]: event.target.value
+    })
+}
 
-    let data = {
+onSubmit = (event) => {
+    event.preventDefault()
+    let contactjson = {
       name: this.state.name,
       email: this.state.email,
       message: this.state.message,
     };
 
-    axios
-      .post("API_URI", data)
-      .then((res) => {
-        this.setState({ sent: true }, this.resetForm());
-      })
-      .catch(() => {
-        console.log("Message not sent");
-      });
-  };
+    axios.post("/contact/message", contactjson)
+            .then(response => {
+                alert("Your message has been sent.")
+            })
+            .catch(err => {
+                console.log(err)
+            })
+        event.target.reset()
+        this.setState({
+            name: "",
+            email: "",
+            message: ""
+        })
+    }
 
   resetForm = () => {
     this.setState({
       name: "",
-      message: "",
       email: "",
+      message: ""
     });
   };
 
