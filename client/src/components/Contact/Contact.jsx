@@ -90,8 +90,12 @@ onSubmit = (event) => {
                 </h5>
               </div>
             </Col>
-            {/* ------------------------- copied in from another project...needs to be formatted-------------------------------------------- */}
-            <Col lg={6} sm={12}>
+            {/* =================================================*/}
+
+            {/* ===== needs backend =============== */}
+
+            {/* ==================================================== */}
+            {/* <Col lg={6} sm={12}>
               <h4>Send me a message!</h4>
               <Form onSubmit={this.onSubmit}>
                 <Form.Group controlId="formBasicEmail">
@@ -126,7 +130,8 @@ onSubmit = (event) => {
                   Submit
                 </Button>
               </Form>
-            </Col>
+            </Col> */}
+            
           </Row>
         </Container>
       </Fragment>
