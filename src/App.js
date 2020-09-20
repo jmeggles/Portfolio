@@ -11,8 +11,8 @@ function App() {
     <Fragment>
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
