@@ -1,10 +1,95 @@
-#navigationName {
-    /* navbar name uppder left */
-    color: #5bc0de;
-    font-family: "Euphoria Script", cursive;
-    font-size: 3em;
+* {
+  scroll-behavior: smooth;
 }
 
-.navigationLinks {
-    font-family: "Cairo", sans-serif;
+body {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navName {
+  /* navbar name uppder left, before scroll */
+  color: #d3d3d3 !important;
+  font-family: "Euphoria Script", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: none !important;
+}
+
+.navName:hover {
+  color: #5bc0de !important;
+  font-style: italic;
+}
+
+.navNameScroll {
+  /* navbar name upper left, after scroll */
+  color: #5bc0de !important;
+  font-family: "Euphoria Script", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: none !important;
+}
+
+.navNameScroll:hover {
+  color: grey !important;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+}
+
+.navLink {
+  /* navbar links */
+  font-size: 16px;
+  text-decoration: none !important;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  color: #d3d3d3 !important;
+}
+
+.navLink:hover {
+  color: #53c8d8 !important;
+  font-style: italic;
+}
+
+.navLinkScroll {
+  font-size: 16px;
+  text-decoration: none !important;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  color: #53c8d8 !important;
+}
+
+.navLinkScroll:hover {
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+  font-weight: 400;
+  color: grey !important;
+  -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+  transform: scale(1) rotate(0deg) translate(0px, 0px) skew(20deg, 0deg);
+}
+
+.navBg {
+  background-color: #00000000 !important;
+  -webkit-transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+}
+
+.navBgScroll {
+  background-color: #ffffff !important;
+  box-shadow: 0 0 5px 0 rgba(85, 227, 246, .5);
+  -webkit-transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
 }
