@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
+  "homepage": "https://jmeggles.github.io/Portfolio/",
   "version": "0.1.0",
-  "proxy": "http://localhost:3001",
   "engines": {
     "node": "14.4.0",
     "npm": "6.14.5"
@@ -17,14 +17,15 @@
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0"
+    "react-scripts": "^3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "install": "npm install",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
