@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Overview
-Personal portfolio using React.  (Will be a MERN application when backend is complete). I have found an incredible passion for coding an would like to showcase my work with a portfolio.
+Personal portfolio using React. 
 
 ## Links (_deployed app and repo_)
 
