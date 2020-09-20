@@ -1,6 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001",
+  "engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "install": "npm install",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -33,7 +39,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "proxy": "http://localhost:3001"
+    ]
   }
 }
