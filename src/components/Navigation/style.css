@@ -8,13 +8,13 @@
 }
 
 .navName:hover {
-  color: #5bc0de !important;
+  color: #53c8d8 !important;
   font-style: italic;
 }
 
 .navNameScroll {
   /* navbar name upper left, after scroll */
-  color: #5bc0de !important;
+  color: #53c8d8 !important;
   font-family: "Euphoria Script", cursive;
   font-weight: 400;
   font-size: 40px;

@@ -8,7 +8,7 @@
   display: block;
   width: 50rem; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
   margin: 1rem auto; 
-  background: #81cccc;
+  background: #5bc0de;
   height: 1px; /* using pixels to keep the same size throughout page */
   margin-bottom: 4rem;
 }
@@ -46,7 +46,7 @@ h1::before {
 }
 
 .fa-icon {
-  color: #81cccc;
+  color: #53c8d8;
   font-size: 30px;
   margin: 0 10px;
 }
