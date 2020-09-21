@@ -4,50 +4,50 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 class Contact extends Component {
-//   state = {
-//     name: "",
-//     email: "",
-//     message: "",
-//     sent: false,
-//     buttonText: "Send Message",
-//     err: "",
-//   };
-//   onChange = event => {
-//     this.setState({
-//         [event.target.name]: event.target.value
-//     })
-// }
+  //   state = {
+  //     name: "",
+  //     email: "",
+  //     message: "",
+  //     sent: false,
+  //     buttonText: "Send Message",
+  //     err: "",
+  //   };
+  //   onChange = event => {
+  //     this.setState({
+  //         [event.target.name]: event.target.value
+  //     })
+  // }
 
-// onSubmit = (event) => {
-//     event.preventDefault()
-//     let contactjson = {
-//       name: this.state.name,
-//       email: this.state.email,
-//       message: this.state.message,
-//     };
+  // onSubmit = (event) => {
+  //     event.preventDefault()
+  //     let contactjson = {
+  //       name: this.state.name,
+  //       email: this.state.email,
+  //       message: this.state.message,
+  //     };
 
-//     axios.post("/contact/message", contactjson)
-//             .then(response => {
-//                 alert("Your message has been sent.")
-//             })
-//             .catch(err => {
-//                 console.log(err)
-//             })
-//         event.target.reset()
-//         this.setState({
-//             name: "",
-//             email: "",
-//             message: ""
-//         })
-//     }
+  //     axios.post("/contact/message", contactjson)
+  //             .then(response => {
+  //                 alert("Your message has been sent.")
+  //             })
+  //             .catch(err => {
+  //                 console.log(err)
+  //             })
+  //         event.target.reset()
+  //         this.setState({
+  //             name: "",
+  //             email: "",
+  //             message: ""
+  //         })
+  //     }
 
-//   resetForm = () => {
-//     this.setState({
-//       name: "",
-//       email: "",
-//       message: ""
-//     });
-//   };
+  //   resetForm = () => {
+  //     this.setState({
+  //       name: "",
+  //       email: "",
+  //       message: ""
+  //     });
+  //   };
 
   render() {
     return (
@@ -59,7 +59,14 @@ class Contact extends Component {
               <div className="contactLinks">
                 <h5>Central Florida</h5>
                 <h5>
-                  <a href={`mailto:jmeggles@gmail.com`}>jmeggles@gmail.com</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={`mailto:jmeggles@gmail.com`}
+                  >
+                    <i className="fas fa-envelope fa-icon"></i>
+                    jmeggles@gmail.com
+                  </a>
                 </h5>
                 <h5>
                   <a
@@ -67,6 +74,8 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/jody-eggleston"
                   >
+                    {" "}
+                    <i className="fab fa-linkedin-in fa-icon"></i>
                     Linkedin
                   </a>
                 </h5>
@@ -76,6 +85,7 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     href="https://github.com/jmeggles"
                   >
+                    <i className="fab fa-github fa-icon"></i>
                     GitHub
                   </a>
                 </h5>
@@ -85,6 +95,7 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     href="https://docs.google.com/document/d/1fVtFGpuRR1aFmVOI-IFFB2vVIiAVNRa9tTKOaSPOG4o/edit?usp=sharing"
                   >
+                    <i className="fas fa-file fa-icon"></i>
                     Rèsumè
                   </a>
                 </h5>
@@ -131,7 +142,6 @@ class Contact extends Component {
                 </Button>
               </Form>
             </Col> */}
-            
           </Row>
         </Container>
       </Fragment>

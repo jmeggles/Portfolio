@@ -20,7 +20,7 @@ onScroll = () => {
           navLink: "navLinkScroll",
           navBg: "navBgScroll",
       })
-  } else if (window.scrollY < 100) {
+  } else if (window.scrollY < 200) {
       this.setState({
           navName: "navName",
           navLink: "navLink",
@@ -36,9 +36,9 @@ componentDidMount() {
   render() {
     return (
       <Fragment>
-        <Navbar className={this.state.navBg} collapseOnSelect fixed="top" bg="light" expand="sm">
-          <Navbar.Brand className={this.state.navName} id="navigationName" href="#home">
-            Jody Eggleston
+        <Navbar className={this.state.navBg} fixed="top" expand="md">
+          <Navbar.Brand> <Nav.Link className={this.state.navName} href="#home">
+            Jody Eggleston</Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

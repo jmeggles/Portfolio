@@ -28,6 +28,14 @@
 }
 
 Button {
-  background-color: #81cccc !important;
-  border-color: #81cccc !important;
+  color: #141818 !important;
+  margin: 2px;
+  background: radial-gradient(#befaf0, #5bc0de, #4c4853);
+  padding: 10px;
+  border-radius: 0.25rem;
+}
+
+Button:hover {
+  color: white;
+  background: radial-gradient(#4c4853, #5bc0de, #befaf0);
 }

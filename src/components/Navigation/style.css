@@ -1,16 +1,3 @@
-* {
-  scroll-behavior: smooth;
-}
-
-body {
-  text-align: center;
-  font-family: "Cairo", sans-serif;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 .navName {
   /* navbar name uppder left, before scroll */
   color: #d3d3d3 !important;

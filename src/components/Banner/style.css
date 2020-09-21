@@ -22,7 +22,7 @@
   font-size: 4.5em;
   font-family: "Cairo", sans-serif;
   text-align: center;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
 }
 
 .bannerTitle {
@@ -35,5 +35,11 @@
 }
 
 .bannerContainer {
-  margin-top: 250px; 
+  margin-top: 250px;
 }
+
+/* additional icon css in About style.css */
+.bannerIcons {
+  text-align: center;
+}
+
