@@ -5,7 +5,7 @@ Personal portfolio using React.
 
 ## Links (_deployed app and repo_)
 
-- [GitHub Pages](https://jmeggles.github.io/Portfolio/)
+- [Live View](https://jmeggles.github.io/Portfolio/)
 - [GitHub Repo](https://github.com/jmeggles/Portfolio)
 
 ## License ![APM](https://img.shields.io/apm/l/npm?color=pink&style=plastic)
