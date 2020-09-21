@@ -22,7 +22,7 @@ class Projects extends Component {
                   <Card.Text>
                   Search, save, view, and buy your favorite books on Google Play store.
                   </Card.Text>
-                  <a target="_blank" rel="noopener noreferrer" href="https://googlebooks-mern.herokuapp.com/"><Button variant="primary">Live View on Heroku</Button></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://googlebooks-mern.herokuapp.com/"><Button variant="primary">View</Button></a>
                 </Card.Body>
               </Card>
             </Col>
@@ -34,7 +34,7 @@ class Projects extends Component {
                   <Card.Text>
                   Simple to-do application to keep daily activities in order.
                   </Card.Text>
-                  <a target="_blank" rel="noopener noreferrer" href="https://todo-app-with-mern.herokuapp.com/  "><Button variant="primary">Live View on Heroku</Button></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://todo-app-with-mern.herokuapp.com/  "><Button variant="primary">View</Button></a>
                 </Card.Body>
               </Card>
             </Col>
@@ -48,7 +48,7 @@ class Projects extends Component {
                   <Card.Text>
                   Track your budget with offline capabilities. Great when traveling!
                   </Card.Text>
-                  <a target="_blank" rel="noopener noreferrer" href="https://budget-tracker-for-you.herokuapp.com/ "><Button variant="primary" >Live View on Heroku</Button></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://budget-tracker-for-you.herokuapp.com/ "><Button variant="primary" >View</Button></a>
                 </Card.Body>
               </Card>
             </Col>
@@ -60,7 +60,7 @@ class Projects extends Component {
                   <Card.Text>
                     Informational site about denied housing due to nature of jobs during the Covid pandemic.
                   </Card.Text>
-                  <a target="_blank" rel="noopener noreferrer" href="https://house-our-heroes.herokuapp.com/ "><Button variant="primary" >Live View on Heroku</Button></a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://house-our-heroes.herokuapp.com/ "><Button variant="primary" >View</Button></a>
                 </Card.Body>
               </Card>
             </Col>
