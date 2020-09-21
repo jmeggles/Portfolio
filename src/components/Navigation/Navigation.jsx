@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Nav, Navbar } from "react-bootstrap"; // import Nav, Navbar if used below
 import "./style.css";
 
+
 //stateful (container or smart) component that keeps track of changing data. use for info that constantly changes such as high scores or a user's fav song. also use for forms that take text input. using stateful components, could lead to less work and cleaner codebase.
 // https://designrevision.com/docs/shards-react/component/navbar
 class Navigation extends Component {

@@ -53,7 +53,7 @@ class Contact extends Component {
     return (
       <Fragment>
         <Container className="contactContainer">
-          <h1 className="sectionTitle">CONTACT</h1>
+          <h1 className="sectionTitle" id="contact">CONTACT</h1>
           <Row>
             <Col>
               <div className="contactLinks">

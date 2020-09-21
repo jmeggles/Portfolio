@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Fragment>
       <Container className="aboutContainer">
-        <h1 className="sectionTitle">ABOUT ME</h1>
+        <h1 className="sectionTitle" id="about">ABOUT ME</h1>
         <Row>
           <Col>
             <img

@@ -5,7 +5,7 @@ import "./style.css";
 // stateless since this info will not likely change
 const Banner = () => {
   return (
-    <Fragment>
+    <Fragment id="banner">
       {/* banner image */}
       <div className="bannerImage">
         {/* dark overlay */}

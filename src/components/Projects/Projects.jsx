@@ -12,7 +12,7 @@ class Projects extends Component {
     return (
       <Fragment>
         <Container className="projectContainer">
-        <h1 className="sectionTitle">PROJECTS</h1>
+        <h1 className="sectionTitle" id="projects">PROJECTS</h1>
           <Row>
             <Col md={6} sm={12} >
               <Card className="projectCard" >
