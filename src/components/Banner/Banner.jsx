@@ -11,7 +11,7 @@ const Banner = () => {
         {/* dark overlay */}
         <div className="overlay">
           <Container className="bannerContainer">
-            <h1 className="bannerName">JODY EGGLESTON</h1>
+            <h1 className="bannerName" id="home">JODY EGGLESTON</h1>
             <h4 className="bannerTitle"> Full Stack Web Developer</h4>
             <div className="bannerIcons">
               <a
