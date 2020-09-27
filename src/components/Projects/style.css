@@ -13,6 +13,7 @@
   font-family: "Cairo", sans-serif;
   text-align: center;
   background-color: #616060 !important;
+  box-shadow: 0 5px 15px 10px #1a2b2f31;
   color: #ffffff;
   width: 100% auto;
   height: 400px auto;

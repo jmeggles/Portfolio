@@ -44,6 +44,7 @@ h1::before {
   margin-right: auto;
   width: 20rem; 
   border-radius: 50%;
+  box-shadow: 0 5px 15px 10px #1a2b2f31;
 }
 
 .fa-icon {
