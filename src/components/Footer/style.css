@@ -5,7 +5,23 @@
     font-family: "Cairo", sans-serif;
     background-color: #676c6d7a;
 }
-.footerSpan {
-    font-family: "Euphoria Script", cursive;
 
+.footer-icon {
+    color: aqua;
+    padding: 10px;
+}
+
+.footer-icon:hover {
+color: deeppink;
+}
+
+.signature {
+font-family: "Euphoria Script", cursive;
+color: aqua;
+font-size: 25px;
+padding: 10px;
+
+}
+.signature:hover {
+color: blue;
 }

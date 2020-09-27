@@ -6,7 +6,7 @@
     /* line under the title for all sections in this app */
   content: ""; /* plain line */
   display: block;
-  width: 60rem; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
+  width: 60rem auto; /* unit of typography equal to the root font-size. Meaning, 1rem is always equal to the font-size defined in <html> */
   margin: 1rem auto; 
   /* background: linear-gradient(to right, #5bc0de, #4c4853,  #5bc0de, transparent); */
   background: linear-gradient(70deg, white 0%, #5bc0de 50%, #5bc0de 50%, white 100%);

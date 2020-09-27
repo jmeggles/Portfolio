@@ -7,7 +7,43 @@ const Footer = () => {
     <Fragment>
       <p className="footer">
         Copyright ©2020 |{" "}
-        <span className="footerSpan"><span role="img" aria-label="parkle"> ✨ </span> Jody Eggleston <span role="img" aria-label="parkle"> ✨ </span></span>
+        <span>
+          <span role="img" aria-label="sparkle">
+            {" "}
+            ✨{" "}
+          </span>{" "}
+          <a
+            class="signature"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://jmeggles.github.io/Portfolio"
+          >
+            Jody Eggleston
+          </a>
+        </span>
+        <span>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/jody-eggleston"
+          >
+            <i class="fab fa-linkedin-in footer-icon"></i>
+          </a>
+        </span>
+        <span>
+          {" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/jmeggles"
+          >
+            <i class="fab fa-github footer-icon"></i>
+          </a>
+        </span>
+        <span role="img" aria-label="sparkle">
+          {" "}
+          ✨
+        </span>
       </p>
     </Fragment>
   );
