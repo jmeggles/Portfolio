@@ -48,6 +48,7 @@ componentDidMount() {
               <Nav.Link className={this.state.navLink} href="#home">HOME</Nav.Link>
               <Nav.Link className={this.state.navLink} href="#about">ABOUT</Nav.Link>
               <Nav.Link className={this.state.navLink} href="#projects">PROJECTS</Nav.Link>
+              <Nav.Link className={this.state.navLink} href="#techs">TECHS</Nav.Link>
               <Nav.Link className={this.state.navLink} href="#contact">CONTACT</Nav.Link>
             </Nav>
           </Navbar.Collapse>

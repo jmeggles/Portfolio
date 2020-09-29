@@ -1,0 +1,36 @@
+.technologiesContainer {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: block;
+  justify-content: center;
+}
+
+.techCard {
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  background: #616060;
+  box-shadow: 0 5px 15px 10px #1a2b2f31;
+  color: #ffffff;
+  height: 300px;
+  width: 100%;
+  padding: 20px 20px;
+
+}
+
+#techs {
+  padding-top: 100px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 12px;
+}
+.iconstyle {
+  font-size: 5em;
+  color: #5bc0de;
+}

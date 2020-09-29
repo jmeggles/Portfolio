@@ -1,5 +1,6 @@
 .sectionTitle {
   color: #413d3d;
+  font-size: 40px;
 }
 
 .sectionTitle::after {
@@ -27,7 +28,7 @@ h1::before {
   text-align: center;
   font-family: "Cairo", sans-serif;
   margin-top: 3em;  /*EM is a unit of typography, equal to the currently specified point-size */
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
 }
 
 .aboutText {
@@ -57,4 +58,8 @@ h1::before {
   color: aqua;
   margin: 0 10px;
   transition: all .1s ease-in-out;
+}
+
+#about {
+  padding-top: 100px;
 }
