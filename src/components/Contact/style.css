@@ -1,8 +1,8 @@
 .contactContainer {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 23em;
-    font-family: "Cairo", sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 10em;
+  font-family: "Cairo", sans-serif;
 }
 
 .contact-form {
@@ -10,6 +10,25 @@
   border-radius: 2px !important;
 }
 
+.contactLinkSection {
+  background-color: #616060;
+  color: white;
+  padding: 100px;
+}
+
+.contactLinks {
+  color: #5bc0de;
+  font-size: 25px;
+}
+
+.contactLinks:hover {
+  color: #11f3e0;
+  font-size: 30px;
+}
+
+#icon-link {
+  color: aqua !important;
+}
 #contact {
   padding-top: 100px;
 }

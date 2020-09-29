@@ -56,31 +56,30 @@ class Contact extends Component {
           <h1 className="sectionTitle" id="contact">CONTACT</h1>
           <Row>
             <Col>
-              <div className="contactLinks">
-                <h5>Central Florida</h5>
+              <div className="contactLinkSection">
+                <h5 className="fas fa-home icon-home"> Central Florida</h5>
                 <h5>
-                  <a
+                  <a className="contactLinks"
                     target="_blank"
                     rel="noopener noreferrer"
                     href={`mailto:jmeggles@gmail.com`}
                   >
-                    <i className="fas fa-envelope fa-icon"></i>
+                    <i className="fas fa-envelope fa-icon" id="icon-link"></i>
                     jmeggles@gmail.com
                   </a>
                 </h5>
                 <h5>
-                  <a
+                  <a className="contactLinks"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/jody-eggleston"
                   >
                     {" "}
-                    <i className="fab fa-linkedin-in fa-icon"></i>
-                    Linkedin
+                    <i className="fab fa-linkedin-in fa-icon"></i><span>Linkedin</span>
                   </a>
                 </h5>
                 <h5>
-                  <a
+                  <a className="contactLinks"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/jmeggles"
@@ -90,7 +89,7 @@ class Contact extends Component {
                   </a>
                 </h5>
                 <h5>
-                  <a
+                  <a className="contactLinks"
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://docs.google.com/document/d/1fVtFGpuRR1aFmVOI-IFFB2vVIiAVNRa9tTKOaSPOG4o/edit?usp=sharing"
