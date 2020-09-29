@@ -18,6 +18,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             href="https://jmeggles.github.io/Portfolio"
           >
+     
             Jody Eggleston
           </a>
         </span>
