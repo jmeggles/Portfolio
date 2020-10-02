@@ -18,17 +18,16 @@
 
 .contactLinks {
   color: #5bc0de;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .contactLinks:hover {
   color: #11f3e0;
-  font-size: 30px;
+  font-size: 25px;
+  transition: all .2s ease-in-out;
+
 }
 
-#icon-link {
-  color: aqua !important;
-}
 #contact {
   padding-top: 100px;
 }

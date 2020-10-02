@@ -65,7 +65,7 @@ class Contact extends Component {
                     rel="noopener noreferrer"
                     href={`mailto:jmeggles@gmail.com`}
                   >
-                    <i className="fas fa-envelope fa-icon" id="icon-link"></i>
+                    <i className="fas fa-envelope fa-icon"></i>
                     jmeggles@gmail.com
                   </a>
                 </h5>

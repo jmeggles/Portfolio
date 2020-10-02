@@ -57,7 +57,7 @@ h1::before {
 .fa-icon:hover {
   color: aqua;
   margin: 0 10px;
-  transition: all .1s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 #about {
