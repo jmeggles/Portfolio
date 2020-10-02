@@ -89,7 +89,7 @@ class Projects extends Component {
                 <Card.Body>
                   <Card.Title>House Our Heroes</Card.Title>
                   <Card.Text>
-                    Informational site about denied housing due to nature of
+                    Informational site about healthcare and first responders being denied housing due to the nature of their
                     jobs during the pandemic.
                   </Card.Text>
                   <a
