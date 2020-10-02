@@ -106,7 +106,7 @@ class Contact extends Component {
             {/* ===== needs backend =============== */}
 
             {/* ==================================================== */}
-  // TODO - this contact form needs to be completed with a serverless function
+  {/* // TODO - this contact form needs to be completed with a serverless function */}
 
             {/* <Col lg={6} sm={12}>
               <h4>Send me a message!</h4>
