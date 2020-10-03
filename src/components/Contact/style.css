@@ -31,3 +31,8 @@
 #contact {
   padding-top: 100px;
 }
+
+.contactBoxShadow {
+  background-color: #616060;
+  box-shadow: 0 5px 15px 10px #1a2b2f31;
+}

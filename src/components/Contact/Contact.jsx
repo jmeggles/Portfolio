@@ -55,7 +55,7 @@ class Contact extends Component {
       <Fragment>
         <Container className="contactContainer">
           <h1 className="sectionTitle" id="contact">CONTACT</h1>
-          <Row>
+          <Row className="contactBoxShadow">
             <Col>
               <div className="contactLinkSection">
                 <h5 className="fas fa-home icon-home"> Central Florida</h5>

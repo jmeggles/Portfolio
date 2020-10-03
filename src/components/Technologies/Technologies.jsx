@@ -25,7 +25,7 @@ const Technologies = () => {
                             <Card.Body>
                                 <Card.Title>Back-end & Databases</Card.Title>
                                 <Card.Text>
-                                  Node.JS, Express.JS, PHP, AWS, MongoDB, MySQL
+                                  Node.JS, Express.JS, AWS, MongoDB, MySQL
                                 </Card.Text>
                             </Card.Body>
                         </Card>
