@@ -13,7 +13,7 @@
   background-color: #616060;
   box-shadow: 0 5px 15px 10px #1a2b2f31;
   color: #ffffff;
-  height: 420px;
+  height: 450px;
   width: 100%;
   margin-bottom: 3em;
 }
@@ -38,4 +38,8 @@ Button:hover {
 
 #projects {
   padding-top: 100px;
+}
+
+.projectTechs {
+  margin-top: 20px;
 }

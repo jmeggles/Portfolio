@@ -27,6 +27,9 @@ class Projects extends Component {
                   <Card.Text>
                     Search, save, view, and buy your favorite books on Google
                     Play store.
+                    <div className="projectTechs">
+                    MongoDB, Express, React, NodeJS, Heroku
+                    </div>
                   </Card.Text>
                   <a
                     target="_blank"
@@ -61,6 +64,9 @@ class Projects extends Component {
                   <Card.Text>
                     Track your budget with offline capabilities. Great when
                     traveling!
+                    <div className="projectTechs">
+                    MongoDB, Express, NodeJS, Heroku
+                    </div>
                   </Card.Text>
                   <a
                     target="_blank"
@@ -91,6 +97,9 @@ class Projects extends Component {
                   <Card.Text>
                     Informational site about healthcare and first responders being denied housing due to the nature of their
                     jobs during the pandemic.
+                    <div className="projectTechs">
+                    AWS, MongoDB, Handlebars, Sequelize, Express, NodeJS, Heroku
+                    </div>
                   </Card.Text>
                   <a
                     target="_blank"
