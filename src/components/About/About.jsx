@@ -28,6 +28,9 @@ const About = () => {
                 backend of web development.
               </p>
               <p className="aboutText col-6">
+                When I'm not behind the computer, I like to be outside on or near the water (paddleboarding, swimming, boating, etc). I also enjoy painting and spending time with my doberman, Lucy. 
+              </p>
+              <p className="aboutText col-6">
                 Contact me. Lets start a project!
               </p>
               <a target="_blank" rel="noopener noreferrer" href={`mailto:jmeggles@gmail.com`}><i className="fas fa-envelope fa-icon"></i></a>
